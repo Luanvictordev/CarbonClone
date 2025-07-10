@@ -1,0 +1,49 @@
+.header-top {
+	display: flex;
+  width: 100vw;
+}
+
+.user-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: white;
+  border: solid 1.5px white;
+  font-size: 0.95em;
+  cursor: pointer;
+  margin-left: auto;
+  padding: 9px 12px;
+  gap: 15px;
+  margin-top: 20px;
+  margin-right: 18px;
+  border-radius: 2px;
+}
+
+.user-button:hover {
+  background-color: #1f1f1f;
+}
+
+.user-button > img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.header-middle {
+	display: flex;
+  margin-top: 29px;
+	flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-subtitle {
+  display: flex;
+  flex-direction: column;
+	color: white;
+	font-size: 1.5em;
+  line-height: 1.35em;
+  margin-bottom: 46px;
+  align-items: center;
+}

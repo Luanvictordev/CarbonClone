@@ -1,0 +1,47 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 2rem;
+  margin-top: 15px;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-bar > a {
+  color: white;
+  font-size: 0.89em;
+  text-decoration: none;
+  border-bottom: 1px solid #b8b8b8;
+  padding-bottom: 4px;
+  line-height: 1rem;
+}
+
+.nav-bar > a:hover {
+  color: #f8e81c;
+  border-bottom: none;
+}
+
+footer > p {
+  margin-top: 8px;
+  font-size: 0.88em;
+  color: #858585;
+}
+
+.footer-carbon-arroba {
+  color: #f8e81c;
+}
+
+.footer-carbon-arroba:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer > img {
+  margin-top: 10px;
+  width: 120px;
+  height: 25px;
+}
